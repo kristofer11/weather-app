@@ -45,7 +45,7 @@ const Forecast = ({ data }) => {
                                 </div>
                                 <div className='dailyDetailsGridItem'>
                                     <label>Wind Speed</label>
-                                    <label>{item.wind.speed} m/s</label>
+                                    <label>{Math.round(item.wind.speed)} m/s</label>
                                 </div>
                                 <div className='dailyDetailsGridItem'>
                                     <label>Sea Level</label>
