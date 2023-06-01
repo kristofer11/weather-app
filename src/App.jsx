@@ -29,7 +29,7 @@ function App() {
     console.log(currentWeather);
     console.log(forecast);
 
-    // Experimenting with changing background based on current weather conditions.
+    // Change background color based on weather
 
     if (currentWeather) {
         let background = document.getElementById('body');
